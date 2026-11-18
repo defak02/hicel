@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div id="show" class="show"></div>
+        <div class="tovchnud">
+          <div class="numbers">
+            <div>
+              <div class="actions">
+                <button onclick="uildelavah('nemeh')" class="button">+</button>
+                <button onclick="uildelavah('hasah')" class="button">-</button>
+                <button onclick="uildelavah('urjeh')" class="button">*</button>
+                <button onclick="uildelavah('huvaah')" class="button">/</button>
+                <button onclick="hariu()" class="button">=</button>
+              </div>
+              <button onclick="tooavah(1)" id="1" class="button is-primary">
+                1
+              </button>
+              <button onclick="tooavah(2)" id="2" class="button is-primary">
+                2
+              </button>
+              <button onclick="tooavah(3)" id="3" class="button is-primary">
+                3
+              </button>
+            </div>
+
+            <div>
+              <button onclick="tooavah(4)" id="4" class="button is-primary">
+                4
+              </button>
+              <button onclick="tooavah(5)" id="5" class="button is-primary">
+                5
+              </button>
+              <button onclick="tooavah(6)" id="6" class="button is-primary">
+                6
+              </button>
+            </div>
+            <div>
+              <button onclick="tooavah(7)" id="7" class="button is-primary">
+                7
+              </button>
+              <button onclick="tooavah(8)" id="8" class="button is-primary">
+                8
+              </button>
+              <button onclick="tooavah(9)" id="9" class="button is-primary">
+                9
+              </button>
+            </div>
+            <button onclick="tooavah(0)" id="0" class="button is-primary">
+              0
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

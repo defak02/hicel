@@ -1,0 +1,62 @@
+.hanna {
+  width: 700px;
+}
+.domain {
+  color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: beige;
+}
+.herobackground {
+  background-color: rgba(55, 25, 25, 0.935);
+  padding: 20px;
+  padding-left: 30px;
+}
+.est {
+  color: rgb(169, 110, 26);
+}
+.heroname {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  font-style: inherit;
+  font-size: 60;
+  color: beige;
+}
+.herodorr {
+  color: blanchedalmond;
+  font-family: "Times New Roman", Times, serif;
+}
+.tses {
+  padding-left: 30px;
+}
+.amerikano {
+  display: block;
+}
+.cappucino {
+  display: block;
+}
+.latte {
+  display: block;
+}
+.star {
+  background-color: rgb(165, 91, 42);
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 70px;
+  color: aliceblue;
+}
+.location {
+  background-color: brown;
+  color: rgb(169, 110, 26);
+  background-color: rgba(55, 25, 25, 0.935);
+  height: 40px;
+  margin-top: 20px;
+}
+.pin {
+  padding: 10px;
+  margin-left: 20px;
+}
+.hana {
+  background-color: ivory;
+  padding: 40px;
+}

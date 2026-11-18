@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="ball.css" />
+  </head>
+  <body>
+    <section class="section">
+      <!-- <div class="container">
+        <button class="button is-warning" onclick="shar()">shar</button>
+        <button class="button is-danger" onclick="ulaan()">ulaan</button>
+        <button class="button is-primary" onclick="nogoon()">nogoon</button>
+        <button class="button is-info" onclick="toonimashin()">
+          too nemeh
+        </button>
+        <h1 id="too">0</h1>
+        <button class="button is-info" onclick="addnumber()">hello</button>
+
+        <h1 id="ner">ner</h1>
+        <button class="button" onclick="nersolih()">oryylah</button>
+      </div> -->
+      <div id="hpbar" class="fullhealth">
+        <div id="1" class="health"></div>
+        <div id="2" class="health"></div>
+        <div id="3" class="health"></div>
+        <div id="4" class="health"></div>
+        <div id="5" class="health"></div>
+      </div>
+      <button onclick="heal()" class="button">heal</button>
+      <button onclick="attack()" class="button">attack</button>
+    </section>
+    <script>
+      //   const shar = () => {
+      //     console.log("shar darlaa");
+      //   };
+      //   const ulaan = () => {
+      //     console.log("ulaan ungu");
+      //   };
+      //   const nogoon = () => {
+      //     console.log("nogoon ungu");
+      //   };
+
+      //   const toonimashin = () => {
+      //     let a = Number(prompt("a too"));
+      //     let b = Number(prompt("b too"));
+      //     let niilber = a + b;
+
+      //     alert(niilber);
+      //   };
+
+      //   const tooh1 = document.getElementById("too");
+      //   let number = 1;
+
+      //   const addnumber = () => {
+      //     number = number * 2;
+      //     tooh1.textContent = number;
+      //   };
+
+      //   const nerH1 = document.getElementById("ner");
+
+      //   let nern = prompt("ner henbe");
+
+      //   const nersolih = () => {
+      //     let ner = nern;
+      //     nerH1.textContent = nern;
+      //   };
+      let lasthp = 5;
+
+      const attack = () => {
+        const hpbar = document.getElementById(lasthp);
+        hpbar.classList.remove("health");
+      };
+      let hpbar = 5 - 1;
+      const heal = () => {
+        const hpbar = document.getElementById(lasthp);
+        hpbar.classList.add("health");
+      };
+    </script>
+  </body>
+</html>
